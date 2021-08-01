@@ -904,6 +904,10 @@ nav li a:hover {
   .second-title {
     font-size: calc(1.95rem + 2.4vw);
   }
+  .all-nav
+  {
+    padding: 20px 10px;
+  }
 }
 
 /* ======================

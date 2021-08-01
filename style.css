@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
-  text-decoration: unset;
+  text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
 ::selection {
@@ -46,11 +46,11 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
   z-index: 5;
   display: flex;
   padding: 20px 25px;
   justify-content: space-between;
+  width: 100%;
 }
 nav {
   padding: 0 30px;
@@ -410,6 +410,7 @@ nav li a:hover {
 .about-txt p {
   margin-bottom: 16px;
   color: #4c4d4d;
+  
 }
 .about-id {
   width: 35%;
@@ -502,7 +503,8 @@ nav li a:hover {
   width: 20%;
 }
 .services-txt {
-  width: 80%;
+  width: 75%;
+  margin-left: 20px;
 }
 .services-txt h3 {
   margin-bottom: 10px;
@@ -821,7 +823,7 @@ nav li a:hover {
     position: fixed;
     right: 0;
     top: 70px;
-    width: 100%;
+    width: 50%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.9);
     flex-direction: column;
@@ -882,6 +884,31 @@ nav li a:hover {
     width: 100%;
     margin-top: 20px;
   }
+  /* -------------------------------------------------------------- */
+  
+  .about-container {
+    margin: 0px 10px;
+    
+  }
+  .resume-container {
+    margin: 0 10px;
+  }
+  .mywork-container {
+    margin: 0 10px;
+  }
+  .services-menu {
+    margin: 0px 10px;
+    
+  }
+  .html
+  {
+    font-size: 14px;
+  }
+  .second-title
+  {
+    font-size: calc(1.95rem + 2.4vw);;
+  }
+  
 }
 
 /* ======================

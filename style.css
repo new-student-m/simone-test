@@ -410,7 +410,6 @@ nav li a:hover {
 .about-txt p {
   margin-bottom: 16px;
   color: #4c4d4d;
-  
 }
 .about-id {
   width: 35%;
@@ -498,6 +497,7 @@ nav li a:hover {
   padding: 0 20px;
   display: flex;
   margin-bottom: 3rem;
+  flex-wrap: wrap;
 }
 .services-icon {
   width: 20%;
@@ -505,6 +505,7 @@ nav li a:hover {
 .services-txt {
   width: 75%;
   margin-left: 20px;
+  margin-top: 10px;
 }
 .services-txt h3 {
   margin-bottom: 10px;
@@ -762,8 +763,7 @@ nav li a:hover {
   flex-wrap: wrap;
   width: 100%;
 }
-.sp-main 
-{
+.sp-main {
   width: 50%;
   padding: 0 10px;
 }
@@ -787,7 +787,6 @@ nav li a:hover {
   padding: 48px;
   border-radius: 5px;
   margin-bottom: 30px;
-  
 }
 .card-top {
   display: flex;
@@ -870,6 +869,7 @@ nav li a:hover {
   }
   .services-items {
     width: 100%;
+    padding: 0 5px;
   }
   .resume-col {
     width: 100%;
@@ -885,10 +885,9 @@ nav li a:hover {
     margin-top: 20px;
   }
   /* -------------------------------------------------------------- */
-  
+
   .about-container {
     margin: 0px 10px;
-    
   }
   .resume-container {
     margin: 0 10px;
@@ -898,17 +897,13 @@ nav li a:hover {
   }
   .services-menu {
     margin: 0px 10px;
-    
   }
-  .html
-  {
+  .html {
     font-size: 14px;
   }
-  .second-title
-  {
-    font-size: calc(1.95rem + 2.4vw);;
+  .second-title {
+    font-size: calc(1.95rem + 2.4vw);
   }
-  
 }
 
 /* ======================

@@ -5,10 +5,19 @@
   list-style-type: none;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
+  
+}
+html
+{
+  scroll-behavior: smooth;
 }
 ::selection {
   color: white;
   background-color: #20c997;
+}
+::placeholder
+{
+  color: #bdbdbd;
 }
 .clear-fix {
   clear: both;
@@ -385,6 +394,7 @@ nav li a:hover {
   color: #dee3e4;
   font-size: calc(1.95rem + 8.4vw);
   text-transform: uppercase;
+  overflow: hidden;
   font-weight: 600;
   opacity: 0.4;
   z-index: 0;
@@ -497,11 +507,11 @@ nav li a:hover {
   padding: 0 20px;
   display: flex;
   margin-bottom: 3rem;
-  flex-wrap: wrap;
+  
 }
-.services-icon {
-  width: 20%;
-}
+/* .services-icon {
+  width: 25%;
+} */
 .services-txt {
   width: 75%;
   margin-left: 20px;
@@ -676,6 +686,7 @@ nav li a:hover {
 .filter-items ul {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .filter-items li {
   padding: 0 15px;
@@ -798,10 +809,95 @@ nav li a:hover {
   padding: 0 20px;
   text-align: left;
 }
+
 .card-bottom {
   text-align: left;
   margin-top: 20px;
 }
+
+/* ===========================
+    End Of Speak Section
+============================== */
+
+/* ===========================
+    Start Of Contact Section
+============================== */
+#contact
+{
+  padding: 72px 0;
+  background-color: #f8f9fa;
+}
+.contact-menu
+{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-form
+{
+  width: 65%;
+  padding: 0 10px;
+}
+.contact-address
+{
+  width: 35%;
+  padding: 0 10px;
+}
+.contact-main
+{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.contact-main input
+{
+  padding: .810rem .96rem;
+  width: 100%;
+  margin-top: 24px;
+  border:1px solid #dae1e3;
+  
+  box-shadow: none;
+  font-size: 1rem;
+  border-radius: .25rem;
+  font-weight: 400;
+}
+.contact-main input:focus , textarea:focus
+{
+  border: 1px solid rgb(0, 149, 175) !important;
+  outline: none;
+  box-shadow: 0 0 6px 2px rgba(89, 175, 255,.5);
+}
+.contact-main textarea
+{
+  width: 100%;
+  padding: .810rem .96rem;
+  border-radius: .25rem;
+  font-weight: 400;
+  color: #656565;
+  margin-top: 24px;
+  font-size: 1rem;
+  border:1px solid #dae1e3;
+}
+.contact-name
+{
+  width:100%;
+}
+.contact-email
+{
+  width: 100%;
+}
+.send-btn
+{
+  border: none;
+  margin: auto;
+  margin-top: 30px;
+  display: block;
+  font-size: 1rem;
+
+}
+
+/* ===========================
+    End Of Contact Section
+============================== */
 
 /* ======================
     Start Of Media Query
@@ -873,6 +969,7 @@ nav li a:hover {
   }
   .resume-col {
     width: 100%;
+    padding: 0 5px;
   }
   .skills-col {
     width: 100%;
@@ -901,9 +998,7 @@ nav li a:hover {
   .html {
     font-size: 14px;
   }
-  .second-title {
-    font-size: calc(1.95rem + 2.4vw);
-  }
+  
   .all-nav
   {
     padding: 20px 10px;

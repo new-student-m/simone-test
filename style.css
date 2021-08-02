@@ -831,6 +831,7 @@ nav li a:hover {
 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .contact-form
 {
@@ -1002,6 +1003,14 @@ nav li a:hover {
   .all-nav
   {
     padding: 20px 10px;
+  }
+  .contact-form
+  {
+    width: 100%;
+  }
+  .contact-address
+  {
+    width: 100%;
   }
 }
 
